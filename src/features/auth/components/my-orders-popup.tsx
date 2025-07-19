@@ -1,5 +1,5 @@
 import { X } from 'lucide-react'
-import { useAuth } from '@/contexts/auth-context'
+import { useAuth } from '@/features/auth/hooks/auth-context'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 

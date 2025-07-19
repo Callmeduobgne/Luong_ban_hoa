@@ -30,7 +30,9 @@
       "@/services/*": ["./src/shared/services/*"],
       "@/types/*": ["./src/shared/types/*"],
       "@/constants/*": ["./src/shared/constants/*"],
-      "@/hooks/*": ["./src/shared/hooks/*"]
+      "@/hooks/*": ["./src/shared/hooks/*"],
+      "@/contexts/*": ["./src/features/auth/hooks/*"],
+      "@/store/*": ["./src/features/cart/hooks/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

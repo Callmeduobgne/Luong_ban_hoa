@@ -1,6 +1,6 @@
 'use client'
 
-import { useCartStore } from '@/store/cart-store'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Trash2, ArrowRight } from 'lucide-react'

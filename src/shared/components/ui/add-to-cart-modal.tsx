@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { X, Heart, Plus, Minus, Truck, Shield, RotateCcw } from 'lucide-react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
-import { useCartStore } from '@/store/cart-store'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
 import type { Product } from '../home/featured-products-section'
 
 interface AddToCartModalProps {

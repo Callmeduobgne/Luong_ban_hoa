@@ -1,8 +1,8 @@
 'use client'
 
 import React, { createContext, useContext, useState, useEffect } from 'react'
-import { useCartStore } from '@/store/cart-store'
-import apiClient from '@/lib/api-client'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
+import apiClient from '@/shared/services/api-client'
 import { toast } from 'react-hot-toast'
 
 interface User {

@@ -6,9 +6,9 @@ import { useState, useEffect } from 'react'
 import ProductDetailDialog from '@/components/ui/product-detail-dialog'
 import AddToCartDialog, { Product as AddToCartProduct } from '@/components/ui/add-to-cart-dialog'
 import toast from 'react-hot-toast'
-import { useCartStore } from '@/store/cart-store'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
 import axios from 'axios'
-import { useAuth } from '@/contexts/auth-context'
+import { useAuth } from '@/features/auth/hooks/auth-context'
 
 export interface Product {
   id: string

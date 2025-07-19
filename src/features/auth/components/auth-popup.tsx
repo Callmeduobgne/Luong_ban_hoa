@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { X, Mail, Lock, User, Phone, Eye, EyeOff, Loader2 } from 'lucide-react'
-import { useAuth } from '@/contexts/auth-context'
+import { useAuth } from '@/features/auth/hooks/auth-context'
 
 export function AuthPopup() {
   const { authPopupOpen, authMode, closeAuthPopup, login, register, isLoading } = useAuth()

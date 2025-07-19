@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import apiClient from '@/lib/api-client'
+import apiClient from '@/shared/services/api-client'
 import { toast } from 'react-hot-toast'
 
 interface CartItem {

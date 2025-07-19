@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify, current_app
 from datetime import datetime, timedelta
 from modules.auth.routes.auth import token_required
+from bson.objectid import ObjectId
 import logging
 
 admin_bp = Blueprint('admin', __name__)
@@ -176,7 +177,7 @@ def toggle_user_status(current_user, user_id):
         new_status = not user.get('is_active', True)
         
         result = user_model.collection.update_one(
-            {'_id': user_model.ObjectId(user_id)},
+            {'_id': ObjectId(user_id)},
             {
                 '$set': {
                     'is_active': new_status,
@@ -233,7 +234,7 @@ def delete_user(current_user, user_id):
                 'message': 'Không thể xóa admin khác'
             }), 400
         
-        result = user_model.collection.delete_one({'_id': user_model.ObjectId(user_id)})
+        result = user_model.collection.delete_one({'_id': ObjectId(user_id)})
         
         if result.deleted_count:
             return jsonify({

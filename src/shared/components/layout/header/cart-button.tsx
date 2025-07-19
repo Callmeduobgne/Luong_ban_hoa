@@ -4,10 +4,10 @@ import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ShoppingCart, X, Trash2, ArrowRight } from 'lucide-react'
-import { useCartStore } from '@/store/cart-store'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog'
 import OrderInvoiceDialog from '@/components/ui/order-invoice-dialog'
-import { useAuth } from '@/contexts/auth-context'
+import { useAuth } from '@/features/auth/hooks/auth-context'
 
 export function CartButton() {
   const [isMounted, setIsMounted] = useState(false)

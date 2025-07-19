@@ -1,7 +1,7 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
-import { formatPrice } from '@/lib/utils'
+import { formatPrice } from '@/shared/services/utils'
 import Image from 'next/image'
-import { useCartStore } from '@/store/cart-store'
+import { useCartStore } from '@/features/cart/hooks/cart-store'
 
 interface OrderInvoiceDialogProps {
   isOpen: boolean
