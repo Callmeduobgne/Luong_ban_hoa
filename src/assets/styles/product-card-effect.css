@@ -1,0 +1,12 @@
+.product-card:hover .product-card-bg {
+  transform: scale(1.15) translateZ(0);
+  background-size: 300px;
+}
+.product-card:hover ~ .product-card .product-card-bg,
+.product-card:hover ~ .product-card .product-card-info {
+  filter: blur(20px);
+}
+.product-card:not(:hover):not(:focus-within) .product-card-bg,
+.product-card:not(:hover):not(:focus-within) .product-card-info {
+  filter: none;
+}

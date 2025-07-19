@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app/admin/products/page.tsx -> axios\":{\"id\":\"app/admin/products/page.tsx -> axios\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_axios_index_js.js\"]}}"

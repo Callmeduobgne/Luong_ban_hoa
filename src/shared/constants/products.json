@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Bó hoa hồng đỏ lãng mạn",
+    "price": 450000,
+    "images": ["/images/sanpham/sanpham1.png"],
+    "description": "Bó hoa hồng đỏ lãng mạn với 12 bông hồng nhập khẩu, giấy gói cao cấp, thích hợp tặng người yêu, sinh nhật, kỷ niệm."
+  },
+  {
+    "name": "Lẵng hoa chúc mừng",
+    "price": 680000,
+    "images": ["/images/sanpham/sanpham2.png"],
+    "description": "Lẵng hoa chúc mừng rực rỡ với hoa hướng dương, hồng, cẩm chướng, thích hợp khai trương, chúc mừng sự kiện."
+  },
+  {
+    "name": "Hộp hoa sinh nhật",
+    "price": 320000,
+    "images": ["/images/sanpham/sanpham3.png"],
+    "description": "Hộp hoa sinh nhật tươi tắn, phối màu pastel nhẹ nhàng, tặng bạn bè, đồng nghiệp."
+  },
+  {
+    "name": "Bó hoa hướng dương",
+    "price": 390000,
+    "images": ["/images/sanpham/sanpham4.png"],
+    "description": "Bó hoa hướng dương rực rỡ, tượng trưng cho sự lạc quan, thích hợp tặng tốt nghiệp, động viên."
+  },
+  {
+    "name": "Bó hoa cẩm chướng",
+    "price": 350000,
+    "images": ["/images/sanpham/sanpham5.png"],
+    "description": "Bó hoa cẩm chướng hồng, ý nghĩa về tình mẫu tử, thích hợp tặng mẹ, ngày 8/3."
+  },
+  {
+    "name": "Lẵng hoa khai trương",
+    "price": 750000,
+    "images": ["/images/sanpham/sanpham6.png"],
+    "description": "Lẵng hoa khai trương sang trọng, phối nhiều loại hoa tươi, chúc phát tài phát lộc."
+  },
+  {
+    "name": "Bó hoa tulip",
+    "price": 520000,
+    "images": ["/images/sanpham/sanpham7.png"],
+    "description": "Bó hoa tulip nhập khẩu, màu sắc tươi sáng, thích hợp tặng dịp đặc biệt."
+  },
+  {
+    "name": "Hộp hoa mix cao cấp",
+    "price": 890000,
+    "images": ["/images/sanpham/sanpham8.png"],
+    "description": "Hộp hoa mix cao cấp, phối nhiều loại hoa nhập khẩu, sang trọng, thích hợp tặng đối tác."
+  }
+] 
