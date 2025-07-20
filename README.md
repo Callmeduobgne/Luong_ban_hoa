@@ -1,4 +1,4 @@
-# 🌸 NO7.floral - Flower Corner
+# 🌸 No.O7 floral
 
 **Shop Hoa Tươi Thái Nguyên** - Hệ thống quản lý shop hoa tươi với giao diện hiện đại và API backend mạnh mẽ.
 
